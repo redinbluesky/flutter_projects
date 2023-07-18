@@ -4,7 +4,7 @@
             "outputFile": "com.example.actual.app-mergeDebugResources-9:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "D:\\001_Work\\004_Flutter\\AndroidStudio\\actual\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "D:\\001_Work\\004_Flutter\\flutter_projects\\actual\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

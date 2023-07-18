@@ -1,3 +1,5 @@
+import 'package:actual/common/view/splash_screen.dart';
+import 'package:actual/user/view/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'common/component/custom_text_from_field.dart';
@@ -14,23 +16,7 @@ class _App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Notosans'),
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Colors.white,
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CustomTextFormField(
-              hintText: '이메일을 입력해주세요',
-              onChanged: (String value) {},
-            ),
-            CustomTextFormField(
-              hintText: '비밀번호를 입력해주세요',
-              obscureText: true,
-              onChanged: (String value) {},
-            ),
-          ],
-        ),
-      ),
+      home: SplashScreen(),
     );
   }
 }
